@@ -1,6 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { HashLink } from "react-router-hash-link";
+library.add(fab)
 
 const Footer = () => {
   return (
@@ -29,6 +34,17 @@ const Footer = () => {
           </Col>
         </Row>
         <Row className="text-center mt-5">
+          <Col xs={12} md={12}>
+            <a className="text-white" as={HashLink} href="https://github.com/">
+            <FontAwesomeIcon icon={["fab", "github"]} size="lg"/>
+            </a>
+            <a className="text-white mx-3" as={HashLink} href="https://www.facebook.com/">
+            <FontAwesomeIcon icon={["fab", "facebook"]} size="lg"/>
+            </a>
+            <a className="text-white" as={HashLink} href="https://google.com/">
+            <FontAwesomeIcon icon={["fab", "google"]} size="lg"/>
+            </a>
+          </Col>
           <Col xs={12} md={12}>
             <small className="text-secondary">Copyright © 2021 - HEALTH-CARE</small>
           </Col>
