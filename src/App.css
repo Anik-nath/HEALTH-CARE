@@ -42,3 +42,19 @@
   text-transform: capitalize;
   font-weight: bold;
 }
+#slider img{
+height: 100vh;
+}
+.carousel-caption {
+  bottom: 40%;
+}
+.registration{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+#service .image{
+  height: 500px;
+}
+

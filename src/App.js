@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
+import Registration from "./Components/Login/Registration";
 import NotFound from "./Components/NotFound/NotFound";
 import Services from "./Components/Services/Services";
 
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/registration">
+            <Registration></Registration>
           </Route>
           <Route path="">
             <NotFound></NotFound>
