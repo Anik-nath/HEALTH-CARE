@@ -1,0 +1,8 @@
+.Ourcard{
+ flex-direction: row;
+ height: 100%;
+}
+.ourImage{
+    width: 100%;
+    height: 100%;
+}

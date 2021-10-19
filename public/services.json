@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Surgery & Transplant",
+    "img": "https://images.unsplash.com/photo-1579154491915-611e891d3a5b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+    "desc": "Transplant surgery for pulmonary hypertension (PH) can involve replacing the heart and lungs, or just the lungs."
+  },
+  {
+    "id": 2,
+    "name": "Cancer Treatment",
+    "img": "https://images.unsplash.com/photo-1578496781985-452d4a934d50?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    "desc": "The most common treatments are surgery, chemotherapy, and radiation. Other options include targeted therapy, immunotherapy, laser"
+  },
+  {
+    "id": 3,
+    "name": "Modern Function Lab",
+    "img": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    "desc": " These are able to become more data-driven. Lab members can also access data anytime and anywhere through web and mobile apps."
+  },
+  {
+    "id": 4,
+    "name": "Dental Care",
+    "img": "https://images.unsplash.com/photo-1581585004042-bca38021ce1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    "desc": "Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders."
+  },
+  {
+    "id": 5,
+    "name": "Radiology & Imaging",
+    "img": "https://images.unsplash.com/photo-1631563019701-efcf403bc5fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    "desc": "Body imaging is a sub-specialized field of diagnostic radiology and is focused primarily on the abdomen, reproductive, and gastrointestinal areas. "
+  },
+  {
+    "id": 6,
+    "name": "Pregnancy Delivery",
+    "img": "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80",
+    "desc": "Here's your go-to guide for labor and delivery when pregnant, including the best ways to manage labor pain."
+  },
+  {
+    "id": 7,
+    "name": "Eye Treatment",
+    "img": "https://images.unsplash.com/photo-1579684453401-966b11832744?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=891&q=80",
+    "desc": "Lifelong vision problems can be avoided if a lazy eye is detected and treated during early childhood. "
+  },
+  {
+    "id": 8,
+    "name": "Heart Surgery",
+    "img": "https://images.unsplash.com/photo-1571772996211-2f02c9727629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "desc": "coronary artery bypass surgery – restoring blood flow to the heart by bypassing the narrowed coronary arteries."
+  },
+  {
+    "id": 9,
+    "name": "DNA Testing",
+
+    "img": "https://images.unsplash.com/photo-1582719367079-bc1b8e5fed9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    "desc": "A DNA paternity test is nearly 100% accurate at determining whether a man is another person's biological father. "
+  },
+  {
+    "id": 10,
+    "name": "Emergency Service",
+    "img": "https://images.unsplash.com/photo-1625258111307-3e929842d9b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "desc": "Emergency department became commonly used when emergency medicine was recognized as a medical specialty, and hospitals and medical centres."
+  },
+  {
+    "id": 11,
+    "name": "Cardiology & ICU",
+    "img": "https://images.unsplash.com/photo-1549560826-4b7bfe23f37b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "desc": "A cardiac care unit focuses on patients with heart problems, while an ICU provides care for patients"
+  },
+  {
+    "id": 12,
+    "name": "Online Medicine Service",
+    "img": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "desc": "A trusted online pharmacy that offers prescription & OTC medicine, healthcare product and, free doctor consulting service."
+  }
+]
