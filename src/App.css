@@ -34,7 +34,7 @@
 }
 /* neccesary for making attractice */
 .OurBtn{
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
 }
 .brand{
@@ -48,7 +48,7 @@ height: 100vh;
 .carousel-caption {
   bottom: 40%;
 }
-.registration{
+.reegistration{
   display: flex;
   justify-content: center;
   height: 100vh;

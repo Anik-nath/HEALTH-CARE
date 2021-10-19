@@ -7,9 +7,9 @@ import useAuth from "../../Hooks/useAuth";
 const Login = () => {
   const {signInUsingGoogle} = useAuth();
   return (
-    <div className="registration">
-      <div style={{width:"400px"}}>
-      <Form  className="bg-white p-4 shadow rounded">
+    <div className="registration w-50 mx-auto">
+      <div className="my-5" >
+      <Form  className="bg-white p-4 shadow rounded w-100">
           <h3>Please Log in</h3>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>

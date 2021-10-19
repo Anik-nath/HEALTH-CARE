@@ -3,15 +3,15 @@ import { Button, Col, Container, Form, Row } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div id="contact" style={{ height: "100vh" }}>
+    <div id="contact">
       <Container>
         <div className="text-center py-4">
           <h2>
             Contact <span className="text-info">Health-Care</span>
           </h2>
         </div>
-        <Row xs={1} sm={1} md={2} lg={2} className="g-5">
-          <Col>
+        <Row xs={12} sm={12} md={12} lg={12} className="g-5">
+          <Col className="pb-5">
             <Form className="border py-5 px-3 shadow">
               <h5 className="lead">Send your message</h5>
               <Form.Control
@@ -27,7 +27,7 @@ const Contact = () => {
                 <Form.Control placeholder="Message" as="textarea" rows={3} />
               </Form.Group>
               <Button variant="primary" type="submit">
-                Submit
+                Send
               </Button>
             </Form>
           </Col>

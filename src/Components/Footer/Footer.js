@@ -7,11 +7,11 @@ const Footer = () => {
     <div className="py-5 text-white" style={{backgroundColor:"#011530e6"}}>
       <Container>
         <Row>
-          <Col xs={6} md={3}>
+          <Col xs={12} md={3} lg={3}>
             <h5 className="text-info">HEALTH-CARE</h5>
             <small className="text-muted">Health is wealth</small>
           </Col>
-          <Col xs={6} md={5}>
+          <Col xs={12} md={5} lg={5}>
             <h5>Address</h5>
             <div className="d-flex flex-column">
               <small>Chittagong , Bangladesh</small>
@@ -19,7 +19,7 @@ const Footer = () => {
               <small>Helpline : 01322810867 (Available : 09:00am to 7:00pm)</small>
             </div>
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={12} md={4} lg={4}>
             <h5>Usefull link</h5>
             <ul>
               <li><Link to="/home">Home</Link></li>
@@ -29,7 +29,7 @@ const Footer = () => {
           </Col>
         </Row>
         <Row className="text-center mt-5">
-          <Col xs={6} md={12}>
+          <Col xs={12} md={12}>
             <small className="text-secondary">Copyright © 2021 - HEALTH-CARE</small>
           </Col>
         </Row>

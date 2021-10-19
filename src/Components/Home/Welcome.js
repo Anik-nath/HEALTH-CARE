@@ -8,12 +8,12 @@ const Welcome = () => {
     <div className="pt-5">
       <Container>
         <Row>
-          <Col xs={6}>
+          <Col xs={12} md={6} lg={6}>
             <div className="w-75">
               <img className="w-100" src={doctor1} alt="welcome doctor" />
             </div>
           </Col>
-          <Col xs={6}>
+          <Col xs={12} md={6} lg={6}>
             <div className="mt-5">
               <h2 className="mb-4">
                 Welcome To <br /> <span className="text-info">Health-Care</span>
@@ -25,7 +25,7 @@ const Welcome = () => {
                 itaque debitis officia temporibus ullam voluptates alias!
               </p>
               <Link to="/about">
-                <button className="btn btn-info text-white OurBtn">About Us</button>
+                <button className="btn btn-info text-white OurBtn mb-5 lg:mb-0 md:mb-0">About Us</button>
               </Link>
             </div>
           </Col>

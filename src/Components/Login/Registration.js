@@ -6,9 +6,9 @@ import useAuth from '../../Hooks/useAuth';
 const Registration = () => {
   const {handleEmail,handlePassword,handleRegistration} = useAuth();
     return (
-        <div className="registration">
-      <div style={{width:"400px"}}>
-      <Form onSubmit={handleRegistration}  className="bg-white p-4 shadow rounded">
+      <div className="registration w-50 mx-auto">
+      <div className="my-5">
+      <Form onSubmit={handleRegistration}  className="bg-white p-4 shadow rounded w-100">
           <h3>Create an account</h3>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
