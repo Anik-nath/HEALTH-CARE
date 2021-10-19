@@ -8,19 +8,19 @@ const Footer = () => {
       <Container>
         <Row>
           <Col xs={6} md={3}>
-            <h5>HEALTH-CARE</h5>
+            <h5 className="text-info">HEALTH-CARE</h5>
             <small className="text-muted">Health is wealth</small>
           </Col>
           <Col xs={6} md={5}>
-            <h6>Address</h6>
+            <h5>Address</h5>
             <div className="d-flex flex-column">
               <small>Chittagong , Bangladesh</small>
-              <small className="py-2">Official: web@hero.com</small>
+              <small className="py-2">Official: healthcare@gmail.com</small>
               <small>Helpline : 01322810867 (Available : 09:00am to 7:00pm)</small>
             </div>
           </Col>
           <Col xs={6} md={4}>
-            <h6>Usefull link</h6>
+            <h5>Usefull link</h5>
             <ul>
               <li><Link to="/home">Home</Link></li>
               <li><Link to="/service">Services</Link></li>
@@ -30,7 +30,7 @@ const Footer = () => {
         </Row>
         <Row className="text-center mt-5">
           <Col xs={6} md={12}>
-            <small className="text-secondary">Copyright © 2021 - anik nath</small>
+            <small className="text-secondary">Copyright © 2021 - HEALTH-CARE</small>
           </Col>
         </Row>
       </Container>

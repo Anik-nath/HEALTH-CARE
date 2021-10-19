@@ -5,7 +5,7 @@ const Details = () => {
     const {serviceId} =useParams();
 
     return (
-        <div>
+        <div className="text-center" style={{height:"100vh"}}>
             <h2>Details : {serviceId}</h2>
         </div>
     );

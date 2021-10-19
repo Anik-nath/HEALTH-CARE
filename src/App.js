@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 import Details from "./Components/Details/Details";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/service">
             <Services></Services>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <PrivateRoute path="/details/:serviceId">
            <Details></Details>

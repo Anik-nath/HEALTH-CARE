@@ -1,12 +1,24 @@
-import React from 'react';
+import React from "react";
+import { Container } from "react-bootstrap";
 
 const About = () => {
-    return (
-        <div id="about">
-            <h2>About us</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis dolorem voluptates provident natus alias nobis exercitationem. Laudantium, in? Eligendi a, facere consectetur modi maxime rerum laudantium error dolor eveniet atque.</p>
-        </div>
-    );
+  return (
+    <div id="about" style={{height:"100vh"}}>
+     <Container>
+     <div className="text-center py-4">
+        <h2> About <span className="text-info">Health-Care</span></h2>
+      </div>
+      <p>
+        What is the healthcare service? Health services consist of medical
+        professionals, organizations, and ancillary health care workers who
+        provide medical care to those in need. Health services serve patients,
+        families, communities, and populations. ... These services are centered
+        around making health care accessible, high quality, and
+        patient-centered.
+      </p>
+     </Container>
+    </div>
+  );
 };
 
 export default About;
