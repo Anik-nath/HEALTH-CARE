@@ -1,9 +1,10 @@
 import React from "react";
 import { Button, Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Care.css";
 
 const Care = (props) => {
-  const { name, img ,desc} = props.service;
+  const { name, img ,desc,id} = props.service;
 
   return (
     <Col>
@@ -16,7 +17,9 @@ const Care = (props) => {
             <h5 className="py-3">{name}</h5>
           </Card.Title>
           <p>{desc}</p>
+          <Link to={`/details/${id}`}>
           <Button variant="btn btn-outline-primary mb-3 px-3">Details</Button>
+          </Link>
         </Card.Body>
       </Card>
     </Col>
