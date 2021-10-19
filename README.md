@@ -1,6 +1,16 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+site link 
+
+
+* Use react for front-end
+* use react bootstrap for responsive 
+* use react router for routing page
+* click link to visit and route
+* Atuhentication is used by firebase
+  * home
+  * about
+  * courses
 
 ## Available Scripts
 
