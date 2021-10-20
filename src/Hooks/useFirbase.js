@@ -19,10 +19,11 @@ const useFirbase = () => {
     signInWithPopup(auth, provider)
     .then((result) => {
       setuser(result);
+      window.location.reload();
+      window.location.replace('service');
     })
     .finally(()=> setIsLoading(false));
   };
-
   // logout
   const logout = () => {
     setIsLoading(true)
