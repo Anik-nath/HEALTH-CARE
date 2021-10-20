@@ -14,8 +14,9 @@ const About = () => {
         provide medical care to those in need. Health services serve patients,
         families, communities, and populations. ... These services are centered
         around making health care accessible, high quality, and
-        patient-centered.
+        patient-centered. 
       </p>
+      <h4 className="text-info">More details is coming soon...</h4>
      </Container>
     </div>
   );

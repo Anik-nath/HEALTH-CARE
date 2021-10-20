@@ -25,11 +25,11 @@ const Details = () => {
   return (
     <>
       <div className="text-center" style={{ height: "100vh" }}>
-        <div>
+        <div id="details">
           <h3>Care Id: {serviceId}</h3>
           <h3>{got?.name} </h3>
-          <img style={{ width: "400px" }} src={got?.img} alt="" />
-          <div className="mx-auto" style={{ width: "20%" }}>
+          <img src={got?.img} alt="" />
+          <div className="mx-auto desc">
             <p>{got?.desc}</p>
           </div>
         </div>

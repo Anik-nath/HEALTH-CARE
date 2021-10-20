@@ -57,4 +57,17 @@ height: 100vh;
 #service .image{
   height: 500px;
 }
-
+#details img{
+  width:400px;
+}
+#details .desc{
+  width:15%;
+}
+@media only screen and (max-width: 600px){
+  #details img{
+    width:300px;
+  }
+  #details .desc{
+    width:60%;
+  }
+}
