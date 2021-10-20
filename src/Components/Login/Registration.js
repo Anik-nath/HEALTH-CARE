@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
 const Registration = () => {
-  const {handleEmail,handlePassword,handleRegistration} = useAuth();
+  const {handleSignin,handleEmail,handlePassword,handleRegistration} = useAuth();
+
     return (
       <div className="registration w-50 mx-auto">
       <div className="my-5">
@@ -22,8 +23,8 @@ const Registration = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control onBlur={handlePassword}  type="password" placeholder="Password" required/>
         </Form.Group>
-        <Button className="btn btn-info text-white OurBtn" variant="primary" type="submit">
-          Register/Sign up
+        <Button onClick={handleSignin} className="btn btn-info text-white OurBtn" variant="primary" type="submit">
+          Sign up
         </Button>
         <br /><hr />
         Already have an account?

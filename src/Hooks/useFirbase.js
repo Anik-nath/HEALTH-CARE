@@ -1,7 +1,10 @@
-import { createUserWithEmailAndPassword ,onAuthStateChanged,getAuth, signInWithPopup, GoogleAuthProvider,signOut} from "firebase/auth";
+import { signInWithEmailAndPassword,createUserWithEmailAndPassword ,onAuthStateChanged,getAuth, signInWithPopup, GoogleAuthProvider,signOut} from "firebase/auth";
 import { useEffect, useState } from "react";
 import initailizeAuthentication from "../Firebase/Firebase.initalize";
 initailizeAuthentication();
+
+
+
 const useFirbase = () => {
     // take user
   const [user, setuser] = useState({});
@@ -57,13 +60,22 @@ const useFirbase = () => {
     createUserWithEmailAndPassword(auth, email, password)
     .then((result) => {
       const user = result.user;
+      console.log(user)
       setError('');
     })
     .catch((error) => {
      setError(error.message);
     });
    }
-  
+  //  login email & pass
+   const handleSignin=()=>{
+    signInWithEmailAndPassword(auth, email, password)
+    .then((res) => {
+     setuser(user)
+     console.log('welcome',res);
+    })
+   }
+
   return {
     user,
     signInUsingGoogle,
@@ -71,7 +83,8 @@ const useFirbase = () => {
     isLoading,
     handleEmail,
     handlePassword,
-    handleRegistration
+    handleRegistration,
+    handleSignin
   };
 };
 export default useFirbase;

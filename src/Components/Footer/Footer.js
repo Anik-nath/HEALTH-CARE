@@ -13,15 +13,15 @@ const Footer = () => {
       <Container>
         <Row>
           <Col xs={12} md={3} lg={3}>
-            <h5 className="text-info">HEALTH-CARE</h5>
+            <h5 className="text-info">MEDI-CARE</h5>
             <small className="text-muted">Health is wealth</small>
           </Col>
           <Col xs={12} md={5} lg={5}>
             <h5>Address</h5>
             <div className="d-flex flex-column">
               <small>Chittagong , Bangladesh</small>
-              <small className="py-2">Official: healthcare@gmail.com</small>
-              <small>Helpline : 01322810867 (Available : 09:00am to 7:00pm)</small>
+              <small className="py-2">Official: medicare@gmail.com</small>
+              <small>Helpline : 012346975 (Available : 09:00am to 7:00pm)</small>
             </div>
           </Col>
           <Col xs={12} md={4} lg={4}>
@@ -46,7 +46,7 @@ const Footer = () => {
             </a>
           </Col>
           <Col xs={12} md={12}>
-            <small className="text-secondary">Copyright © 2021 - HEALTH-CARE</small>
+            <small className="text-secondary">Copyright © 2021 - MEDI-CARE</small>
           </Col>
         </Row>
       </Container>

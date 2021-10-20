@@ -4,26 +4,37 @@ import { useParams } from "react-router";
 const Details = () => {
   const { serviceId } = useParams();
   const [ourServices, setOurServices] = useState([]);
-  const [singlee,setSinglee] = useState({});
+  const [got, setGot] = useState([]);
 
-    useEffect(() => {
-    fetch("/services.json")
+  useEffect(() => {
+    fetch("/singleServices.json")
       .then((res) => res.json())
       .then((data) => setOurServices(data));
-    }, []);
-    // console.log(ourServices)
+  }, []);
+  // console.log(ourServices)
 
-    useEffect(()=>{
-      const gotYou  = ourServices.find(e => e.id === parseInt(serviceId))
-      // console.log(gotYou);
-      setSinglee(gotYou);
-    },[singlee])
+  useEffect(() => {
+    const gotYou = ourServices.find(
+      (singleService) => singleService.id === +serviceId
+    );
+    setGot(gotYou);
+  }, [ourServices]);
 
+  // console.log(got);
 
   return (
-    <div className="text-center" style={{ height: "100vh" }}>
-      <h2>Details : {serviceId}</h2>
-    </div>
+    <>
+      <div className="text-center" style={{ height: "100vh" }}>
+        <div>
+          <h3>Care Id: {serviceId}</h3>
+          <h3>{got?.name} </h3>
+          <img style={{ width: "400px" }} src={got?.img} alt="" />
+          <div className="mx-auto" style={{ width: "20%" }}>
+            <p>{got?.desc}</p>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

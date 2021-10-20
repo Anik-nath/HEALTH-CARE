@@ -16,13 +16,10 @@ const Welcome = () => {
           <Col xs={12} md={6} lg={6}>
             <div className="mt-5">
               <h2 className="mb-4">
-                Welcome To <br /> <span className="text-info">Health-Care</span>
+                Welcome To <br /> <span className="text-info">Medi-Care</span>
               </h2>
               <p className="text-justify lead">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio
-                labore autem asperiores nisi illum dignissimos! Nesciunt et
-                consequuntur maxime incidunt sapiente eaque, necessitatibus
-                itaque debitis officia temporibus ullam voluptates alias!
+              Health care (also health-care or healthcare) is the maintenance or improvement of health via the prevention, diagnosis, treatment, recovery, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields.
               </p>
               <Link to="/about">
                 <button className="btn btn-info text-white OurBtn mb-5 lg:mb-0 md:mb-0">About Us</button>

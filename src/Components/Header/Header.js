@@ -5,7 +5,6 @@ import useAuth from "../../Hooks/useAuth";
 
 const Header = () => {
   const { user, logout } = useAuth();
-
   return (
     <>
       <Navbar
@@ -17,7 +16,7 @@ const Header = () => {
       >
         <Container>
           <Navbar.Brand className="brand" as={HashLink} to="/home">
-            HEALTH-CARE
+            MEDI-CARE
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -38,7 +37,8 @@ const Header = () => {
             </Nav>
             <Nav>
               <Navbar.Text>
-                Signed in as:- <a as={HashLink} href="#login">{user?.email}</a>
+              <img style={{width:"15%",borderRadius:"50%",marginRight:"5px"}} src={user.photoURL} alt="" />
+                <a as={HashLink} href="#login">{user?.displayName}</a>
               </Navbar.Text>
               {user?.email ? (
                 <Nav.Link
@@ -46,7 +46,7 @@ const Header = () => {
                   as={HashLink}
                   to="/login"
                 >
-                  Logut
+                  Logout
                 </Nav.Link>
               ) : (
                 <Nav.Link as={HashLink} to="/login">

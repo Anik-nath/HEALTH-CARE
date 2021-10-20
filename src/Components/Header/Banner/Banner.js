@@ -11,7 +11,7 @@ const Banner = () => {
           <img className="d-block w-100" src={banner1} alt="First slide" />
           <Carousel.Caption>
             <h1>We Provide Best Medical Services</h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>Titrating blood pressure meds.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -19,7 +19,7 @@ const Banner = () => {
 
           <Carousel.Caption>
             <h1>WE Provide You Best Cares</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>We will continue to coordinate care among specialists in our medical care.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -28,7 +28,7 @@ const Banner = () => {
           <Carousel.Caption>
             <h1>Check Our Best Medical Services</h1>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            The maintenance or improvement of health via the prevention, diagnosis. 
             </p>
           </Carousel.Caption>
         </Carousel.Item>

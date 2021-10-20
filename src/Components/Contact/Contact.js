@@ -7,7 +7,7 @@ const Contact = () => {
       <Container>
         <div className="text-center py-4">
           <h2>
-            Contact <span className="text-info">Health-Care</span>
+            Contact <span className="text-info">Medi-Care</span>
           </h2>
         </div>
         <Row xs={12} sm={12} md={12} lg={12} className="g-5">

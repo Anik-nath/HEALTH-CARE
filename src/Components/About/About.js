@@ -6,7 +6,7 @@ const About = () => {
     <div id="about" style={{height:"100vh"}}>
      <Container>
      <div className="text-center py-4">
-        <h2> About <span className="text-info">Health-Care</span></h2>
+        <h2> About <span className="text-info">Medi-Care</span></h2>
       </div>
       <p>
         What is the healthcare service? Health services consist of medical
