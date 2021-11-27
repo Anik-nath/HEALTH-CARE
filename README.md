@@ -1,7 +1,16 @@
 # Getting Started with Create React App
 
-site link https://health-care-73f51.web.app/ 
+Live site link https://health-care-73f51.web.app/ 
 
+Website Features:
+* Different types of care provide from this site. Heart surgery, 
+Eye treatment, DNA testing etc.
+* If people are registered, they can see health cares 
+information.
+* People can take serial for their by online appointment. And 
+people can contact with us.
+
+Technology used:
 
 * Use react for front-end
 * use react bootstrap for responsive 
